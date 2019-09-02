@@ -1,17 +1,23 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: "static/media/uploads"
+
+media_folder: static/media/uploads
+public_folder: /media/uploads
+
 collections:
-  - name: "blog"
-    label: "Blog posts"
-    folder: "content/blog"
+  - name: 'blog'
+    label: 'Blog posts'
+    label_singular: 'Blog post'
+    description: 'Use blog posts to add information to the blog - click the "New Blog post" to get started'
+    folder: 'content/blog'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", hint: "Used to provide a quick synopsis of this blog post"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false, hint: "Provides an image that will be displayed with this post"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'string', hint: 'Used to provide a quick synopsis of this blog post'}
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
