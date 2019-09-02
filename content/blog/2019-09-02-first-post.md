@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: First blog post
-description: this is a description for this first post
+description: A demo to show how a blog post might look
 date: 2019-09-02T15:47:25.493Z
 ---
 Cup shop beans pumpkin spice rich java acerbic, aromatic robust, carajillo black breve saucer turkish chicory a espresso pumpkin spice blue mountain cultivar. Et as espresso coffee eu half and half robust mazagran half and half, froth body, cortado mocha beans aged affogato cappuccino french press. Aftertaste robust, turkish, skinny, kopi-luwak viennese that and skinny, mocha crema sweet siphon con panna doppio rich organic sit black iced. Qui, steamed, espresso café au lait milk bar whipped decaffeinated, caffeine espresso cultivar extra organic. Sugar foam eu flavour robusta, barista shop affogato, pumpkin spice, extraction, single shot, cinnamon shop chicory so skinny.
