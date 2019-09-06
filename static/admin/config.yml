@@ -5,7 +5,7 @@ backend:
     - admin
     - editor
 
-site_url: https://turascolmcille.org
+site_url: https://turascolmcille.org/the12
 display_url: https://turascolmcille.org
 
 media_folder: static/media/uploads

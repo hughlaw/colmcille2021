@@ -9,7 +9,7 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
-    if (location.pathname === rootPath) {
+    if (location.pathname === rootPath || location.pathname === '/the12') {
       header = (
         <h1
           style={{

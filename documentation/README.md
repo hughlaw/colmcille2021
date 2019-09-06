@@ -2,7 +2,7 @@
 This document explains how to access everything related to your new blog and email accounts.
 
 ## The blog
-The blog is located at turascolmcille.org and is a simple blog that shows all posts with the most recent displayed first. It is fully responsive so will display well on all screen sizes and devices.
+The blog is located at turascolmcille.org/the12 and is a simple blog that shows all posts with the most recent displayed first. It is fully responsive so will display well on all screen sizes and devices.
 
 ![turas colmcille blog example homepage](./screenshots/homepage.png)
 ![an example blog post](./screenshots/example-post.png)
