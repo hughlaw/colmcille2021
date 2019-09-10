@@ -1,9 +1,6 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-  accept_roles:
-    - admin
-    - editor
 
 site_url: https://turascolmcille.org/the12
 display_url: https://turascolmcille.org
@@ -24,6 +21,7 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
       - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Author', name: 'author', widget: 'select', options: ['Brian','Damian','Deirdra','Maureen','Pairaig']}
       - {label: 'Description', name: 'description', widget: 'string', hint: 'Used to provide a quick synopsis of this blog post, shown on the main list page'}
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Body', name: 'body', widget: 'markdown'}

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Second post
+author: Maureen
 description: Another example of a simple blog post
 date: 2019-09-02T17:15:21.493Z
 ---

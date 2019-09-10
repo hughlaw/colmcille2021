@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: First blog post
+author: Maureen
 description: A demo to show how a blog post might look
 date: 2019-09-02T15:47:25.493Z
 ---
