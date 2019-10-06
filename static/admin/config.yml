@@ -23,6 +23,12 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Author', name: 'author', widget: 'select', options: ['Brian','Damian','Deirdra','Maureen','Pairaig']}
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
       - {label: 'Description', name: 'description', widget: 'string', hint: 'Used to provide a quick synopsis of this blog post, shown on the main list page'}
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
