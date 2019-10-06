@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+publish_mode: editorial_workflow
 site_url: https://turascolmcille.org/the12
 display_url: https://turascolmcille.org
 
