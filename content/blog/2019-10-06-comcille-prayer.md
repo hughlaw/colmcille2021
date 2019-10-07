@@ -2,11 +2,10 @@
 layout: blog
 title: Comcille Prayer
 author: Maureen
+image: /media/uploads/20190907_171031.jpg
 description: Poem
 date: 2019-10-06T15:28:32.314Z
 ---
-![](/media/uploads/20190907_171031.jpg)
-
 Colmcille
 
 And did you sing Columba, when you prayed?
