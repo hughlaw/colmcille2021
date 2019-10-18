@@ -34,6 +34,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date} - {post.frontmatter.author}
         </p>
+        <img src={post.frontmatter.image} alt="" />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description,
         author
+        image
       }
     }
   }

@@ -4,13 +4,14 @@ backend:
 
 publish_mode: editorial_workflow
 site_url: https://turascolmcille.org/the12
-display_url: https://turascolmcille.org
+display_url: https://turascolmcille.org/the12
 
 media_folder: static/media/uploads
 public_folder: /media/uploads
 
 collections:
   - name: 'blog'
+    preview_path: /{{slug}}
     label: 'Blog posts'
     label_singular: 'Blog post'
     description: 'Use blog posts to add information to the blog - click the "New Blog post" to get started'
@@ -24,11 +25,12 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Author', name: 'author', widget: 'select', options: ['Brian','Damian','Deirdra','Maureen','Pairaig']}
       - label: "Featured Image"
+        required: false
         name: "image"
         widget: "image"
         media_library:
           config:
             multiple: false
-      - {label: 'Description', name: 'description', widget: 'string', hint: 'Used to provide a quick synopsis of this blog post, shown on the main list page'}
+      - {label: 'Description', required: false, name: 'description', widget: 'string', hint: 'Used to provide a quick synopsis of this blog post, shown on the main list page'}
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
