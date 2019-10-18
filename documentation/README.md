@@ -1,4 +1,4 @@
-# torascolmcille.org
+# turascolmcille.org
 This document explains how to access everything related to your new blog and email accounts.
 
 ## The blog
