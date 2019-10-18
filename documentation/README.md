@@ -10,7 +10,7 @@ The blog is located at turascolmcille.org/the12 and is a simple blog that shows 
 ### Adding a new post
 To add a new blog post you need to first log in to the admin interface. This is located at:
 www.turascolmcille.org/admin
-You will need to log in using your email address (firstname@turascolmcille.org) and the password you used when you originally signed in to the blog - this should have been created when you clicked the link in your welcome email.
+You will need to log in using the admin email address (admin@turascolmcille.org) - you will have been provided with the admin password separately.
 
 ![login screen](./screenshots/login.png)
 
@@ -18,9 +18,9 @@ Once logged in you will see a list of all the blog posts currently in your syste
 
 ![main admin dashboard](./screenshots/main-admin-ui.png)
 
-On the next screen you will be able to fill in the details of your post, then once you’re happy with it, click the “Publish” button and then “Publish now” to add you post to the live blog.
+On the next screen you will be able to fill in the details of your post, then once you’re happy with it, click the "Save" button. This saves your post as a draft. After a minute or so, you will see some additional buttons appear allowing you to set the status to "Ready" and then publish your post to the live blog. You can also delete the post from this screen.
 
-**NOTE: It can take a few minutes before your post will appear on the live blog.**
+**NOTE: It can take a few minutes after each save or publish before your post will appear on the live blog.**
 
 ![adding a new post](./screenshots/adding-a-post.png)
 
