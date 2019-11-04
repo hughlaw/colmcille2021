@@ -31,7 +31,7 @@ When you're ready to publish your post, change the Status to "Ready" and click t
 ![previewing and publishing a post](./screenshots/preview-publish-a-post.png)
 
 ### Editorial workflow
-Posts on the blog go through a "workflow" where they start as a "Draft", and from there they can either move to "In Review" or "Ready". Most of the time, a post author will simply change the status to "Raedy" and publish immediately, but if you have drafts that you or other authors have created, then these can be found under the "Workflow" tab.
+Posts on the blog go through a "workflow" where they start as a "Draft", and from there they can either move to "In Review" or "Ready". Most of the time, a post author will simply change the status to "Ready" and publish immediately, but if you have drafts that you or other authors have created, then these can be found under the "Workflow" tab.
 
 ![editorial workflow](./screenshots/editorial-workflow.png)
 
