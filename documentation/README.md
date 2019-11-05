@@ -1,5 +1,5 @@
 # turascolmcille.org
-This document explains how to access everything related to your new blog.
+This document explains how to access everything related to your new blog. It is also available at https://github.com/hughlaw/colmcille2021/tree/master/documentation
 
 ## The blog
 The blog is located at turascolmcille.org/the12 and is being used to gather information for possible future projects. The blog lists all posts with the most recent displayed first. It is fully responsive so will display well on all screen sizes and devices.
