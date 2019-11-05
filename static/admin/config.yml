@@ -23,7 +23,7 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
       - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Author', name: 'author', widget: 'select', options: ['Brian','Damian','Deirdra','Maureen','Pairaig']}
+      - {label: 'Author', name: 'author', widget: 'select', options: ['Bishop Alan','Fr Brendan','Brian','Damian','Rev David','Deirdra','Gabrielle','Rev Heather','Maggie','Maureen','Fr Michael','Paraig']}
       - label: "Featured Image"
         required: false
         name: "image"
