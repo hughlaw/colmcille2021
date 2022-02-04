@@ -1,3 +1,4 @@
 [[redirects]]
-  from = '/'
-  to = 'https://www.slicholmcille.org/'
+  from = "/"
+  to = "https://www.slicholmcille.org"
+  status = 301
